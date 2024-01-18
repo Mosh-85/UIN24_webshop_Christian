@@ -81,6 +81,14 @@ header button span{
     top: 76px;
     right: 0;
     padding: 1rem;
+    opacity: 0;
+    transition: ease-in-out .5s;
+    right: -100%;
+}
+
+#cart.show{
+    opacity: 1;
+    right: 0;
 }
 #cart h2{
     font-size: 1.2rem;
